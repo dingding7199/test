@@ -292,6 +292,36 @@ while(count<9):
     print "NUM is count",count
     count+=1
 print "Bye"
+#求偶数
+a = 1
+while a < 10:
+    a += 1
+    if a% 2 > 0:
+        continue
+    print a
+#当i大于10就跳出
+i = 1
+while 1:
+    print i
+    i += 1
+    if i > 10:
+        break
+
+#无限循环
+var = 1
+while var == 1:
+    num = raw_input("EnterPress: ")
+    print "EnterPress", num
+print "ByeBye"
+
+
+
+
+
+
+
+
+
 
 
 
