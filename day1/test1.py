@@ -308,19 +308,37 @@ while 1:
         break
 
 #无限循环
+'''
 var = 1
 while var == 1:
     num = raw_input("EnterPress: ")
     print "EnterPress", num
 print "ByeBye"
+'''
+#while循环使用else语句
+count = 0
+while count < 5:
+    print count,"is less 5"
+    count += 1
+else:
+    print count,"is more 5"
 
 
+#简单语句组
+#类似if语句的语法，如果你的while循环体中只有一条语句，你可以将该语句与while写在同一行中， 如下所示：
+'''
+flag = 1
+while (flag): print 'Give me a success!'
+print "Bye"
+'''
+#for循环
+for letter in "Python":
+    print "首字母是",letter
 
-
-
-
-
-
+fruits=["banbana","apple","orange"]
+for letter in fruits:
+    print "列表是",letter
+print "ByeBye"
 
 
 
